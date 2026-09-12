@@ -5,7 +5,7 @@ title: "Animal Sounds Song Game: Fun for Toddlers AND Parents"
 
 # 🐄 Animal Sounds Song Game: Fun for Toddlers AND Parents
 
-**[IMAGE 1 HERE — parent and toddler sitting face-to-face, both laughing mid-song]**
+
 
 Some activities are for kids to do alone. This one isn't — it works best when a parent jumps in too. All you need is your voice, a few minutes, and willingness to be a little silly. 🐷🐔🐄
 
@@ -19,7 +19,7 @@ A simple sing-and-guess game built around the classic "Old MacDonald Had a Farm"
 **Time needed:** 10-15 minutes
 **Materials:** None! (Optional: stuffed animals or animal picture cards if you have them)
 
-**[IMAGE 2 HERE — a few farm-animal stuffed toys or picture cards laid out on the floor]**
+
 
 ---
 
@@ -30,8 +30,6 @@ A simple sing-and-guess game built around the classic "Old MacDonald Had a Farm"
 3. Make the animal sound together, loudly and dramatically — the sillier, the better
 4. Take turns: one round your toddler picks the animal, the next round you pick and they guess the sound
 5. Add movement — hop like a frog, waddle like a duck — to turn it into a mini dance party
-
-**[IMAGE 3 HERE — parent and toddler both mid-action, arms out, playfully imitating an animal]**
 
 ---
 

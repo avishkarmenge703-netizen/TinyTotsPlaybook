@@ -1,3 +1,4 @@
- title: Tiny Tots Playbook
- description: Fun activities and rhymes for toddlers
- theme: minima
+title: Tiny Tots Playbook
+description: Fun activities and rhymes for toddlers
+theme: minima
+baseurl: "/TinyTotsPlaybook"

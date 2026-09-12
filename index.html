@@ -1,0 +1,244 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tiny Tots Playbook — Fun Activities for Little Ones</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --yellow:#FFD23F;
+    --sky:#4EC5F1;
+    --coral:#FF6B6B;
+    --green:#4CAF7D;
+    --cream:#FFFBF2;
+    --ink:#2E2440;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    background:var(--cream);
+    color:var(--ink);
+    font-family:'Nunito', sans-serif;
+    line-height:1.6;
+    overflow-x:hidden;
+  }
+  h1,h2,h3,.brand{
+    font-family:'Fredoka', sans-serif;
+  }
+
+  /* ---------- HEADER ---------- */
+  header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:24px 6%;
+  }
+  .brand{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--ink);
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .brand-dot{
+    width:14px; height:14px;
+    background:var(--coral);
+    border-radius:50%;
+    display:inline-block;
+  }
+  nav a{
+    color:var(--ink);
+    text-decoration:none;
+    font-weight:700;
+    margin-left:28px;
+    font-size:0.95rem;
+  }
+  nav a:hover{ color:var(--coral); }
+
+  /* ---------- HERO ---------- */
+  .hero{
+    position:relative;
+    padding:60px 6% 100px;
+    display:flex;
+    align-items:center;
+    gap:40px;
+    flex-wrap:wrap;
+  }
+  .hero-text{ flex:1; min-width:280px; }
+  .hero-text h1{
+    font-size:clamp(2.2rem, 5vw, 3.4rem);
+    line-height:1.15;
+    margin-bottom:18px;
+  }
+  .hero-text h1 span{
+    background:var(--yellow);
+    padding:0 10px;
+    border-radius:16px;
+    display:inline-block;
+    transform:rotate(-2deg);
+  }
+  .hero-text p{
+    font-size:1.15rem;
+    max-width:480px;
+    margin-bottom:28px;
+  }
+  .cta{
+    display:inline-block;
+    background:var(--coral);
+    color:white;
+    font-weight:700;
+    font-family:'Fredoka', sans-serif;
+    padding:14px 32px;
+    border-radius:100px;
+    text-decoration:none;
+    font-size:1.05rem;
+    box-shadow:0 6px 0 #d94e4e;
+    transition:transform 0.15s ease;
+  }
+  .cta:hover{ transform:translateY(2px); box-shadow:0 4px 0 #d94e4e; }
+
+  .hero-blob{
+    flex:1;
+    min-width:280px;
+    display:flex;
+    justify-content:center;
+  }
+  .blob-shape{
+    width:100%;
+    max-width:380px;
+    height:340px;
+    background:var(--sky);
+    border-radius:63% 37% 54% 46% / 45% 41% 59% 55%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:6rem;
+    animation:morph 8s ease-in-out infinite;
+  }
+  @keyframes morph{
+    0%,100%{ border-radius:63% 37% 54% 46% / 45% 41% 59% 55%; }
+    50%{ border-radius:40% 60% 45% 55% / 60% 45% 55% 40%; }
+  }
+
+  .wave{
+    display:block;
+    width:100%;
+    line-height:0;
+  }
+
+  /* ---------- POSTS ---------- */
+  .posts{
+    background:var(--ink);
+    padding:80px 6%;
+  }
+  .posts h2{
+    color:white;
+    font-size:2rem;
+    margin-bottom:40px;
+    text-align:center;
+  }
+  .post-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+    gap:28px;
+    max-width:1100px;
+    margin:0 auto;
+  }
+  .post-card{
+    background:var(--cream);
+    border-radius:28px;
+    padding:26px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    text-decoration:none;
+    color:var(--ink);
+    transition:transform 0.2s ease;
+  }
+  .post-card:hover{ transform:translateY(-6px); }
+  .post-thumb{
+    width:100%;
+    height:150px;
+    border-radius:18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:3rem;
+    margin-bottom:6px;
+  }
+  .thumb-a{ background:var(--yellow); }
+  .thumb-b{ background:var(--coral); }
+  .thumb-c{ background:var(--green); }
+  .post-card h3{ font-size:1.2rem; }
+  .post-card .tag{
+    font-size:0.8rem;
+    font-weight:700;
+    color:var(--sky);
+  }
+  .post-card p{ font-size:0.95rem; color:#5a5268; }
+
+  /* ---------- FOOTER ---------- */
+  footer{
+    text-align:center;
+    padding:50px 6%;
+    color:#7a7288;
+    font-size:0.9rem;
+  }
+  footer a{ color:var(--coral); font-weight:700; text-decoration:none; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand"><span class="brand-dot"></span>Tiny Tots Playbook</div>
+  <nav>
+    <a href="#posts">Activities</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Screen-free fun<br><span>starts here.</span></h1>
+    <p>Simple activities, rhymes, and learning games for toddlers — using things you already have at home. New ideas every week.</p>
+    <a href="#posts" class="cta">See today's activity</a>
+  </div>
+  <div class="hero-blob">
+    <div class="blob-shape">🧸</div>
+  </div>
+</section>
+
+<svg class="wave" viewBox="0 0 1440 100" preserveAspectRatio="none">
+  <path fill="#2E2440" d="M0,40 C360,100 1080,0 1440,50 L1440,100 L0,100 Z"></path>
+</svg>
+
+<section class="posts" id="posts">
+  <h2>Latest Activities</h2>
+  <div class="post-grid">
+    {% assign thumbs = "thumb-a,thumb-b,thumb-c" | split: "," %}
+    {% assign icons = "🌾,🎵,🫧,🐄,🎨,🧩" | split: "," %}
+    {% for post in site.posts %}
+    <a href="{{ post.url | relative_url }}" class="post-card">
+      <div class="post-thumb {{ thumbs[forloop.index0 | modulo: 3] }}">{{ icons[forloop.index0 | modulo: 6] }}</div>
+      <span class="tag">{{ post.date | date: "%B %d, %Y" }}</span>
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.excerpt | strip_html | truncatewords: 18 }}</p>
+    </a>
+    {% else %}
+    <p style="color:white;">No posts yet — your first one will show up here!</p>
+    {% endfor %}
+  </div>
+</section>
+
+<footer>
+  Made with ❤️ for curious little ones. Follow along on <a href="#">Facebook</a>.
+</footer>
+
+</body>
+</html>
